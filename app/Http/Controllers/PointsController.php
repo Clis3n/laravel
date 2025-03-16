@@ -12,10 +12,10 @@ class PointsController extends Controller
     /**
      * Display a listing of the resource.
      */
-public function __construct()
-{
-    $this->points = new PointsModel();
-}
+    public function __construct()
+    {
+        $this->points = new PointsModel();
+    }
     public function index()
     {
         $data = [
@@ -38,14 +38,31 @@ public function __construct()
      */
     public function store(Request $request)
     {
+        //validate request
+        $request->validate(
+            [
+                'name' => 'required|unique:points,name',
+                'description' => 'required',
+                'geom_point' => 'required',
+            ],
+            [
+                'name.required' => 'Name is required',
+                'name.unique' => 'Name already exists',
+                'description.required' => 'Description is required',
+                'geom_point.required' => 'coordinates is required',
+            ]
+        );
         $data = [
             'geom' => $request->geom_point,
             'name' => $request->name,
             'description' => $request->description,
         ];
         //create data
-        $this->points->create($data);
-        return redirect()->route('map');
+        if (!$this->points->create($data)) {
+            return redirect()->route('map')->with('error', 'Failed to add point');
+        }
+
+        return redirect()->route('map')->with('success', 'Point added successfully');
     }
 
     /**

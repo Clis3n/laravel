@@ -23,7 +23,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <form method="POST" action="<?php echo e(route('point.store')); ?>">
-                <div class="modal-body">
+                    <div class="modal-body">
                         <?php echo csrf_field(); ?>
 
                         <div class="mb-3">
@@ -57,7 +57,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <form method="POST" action="<?php echo e(route('polyline.store')); ?>">
-                <div class="modal-body">
+                    <div class="modal-body">
                         <?php echo csrf_field(); ?>
 
                         <div class="mb-3">
@@ -92,7 +92,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <form method="POST" action="<?php echo e(route('polygon.store')); ?>">
-                <div class="modal-body">
+                    <div class="modal-body">
                         <?php echo csrf_field(); ?>
 
                         <div class="mb-3">
@@ -117,7 +117,6 @@
             </div>
         </div>
     </div>
-
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('script'); ?>
@@ -185,6 +184,88 @@
 
             drawnItems.addLayer(layer);
         });
+
+        /* GeoJSON Point */
+        var point = L.geoJson(null, {
+            onEachFeature: function(feature, layer) {
+                var popupContent = "Name: " + feature.properties.name + "<br>" +
+                    "Description: " + feature.properties.description;
+                layer.on({
+                    click: function(e) {
+                        point.bindPopup(popupContent);
+                    },
+                    mouseover: function(e) {
+                        point.bindTooltip(feature.properties.name);
+                    },
+                });
+            },
+        });
+        $.getJSON("<?php echo e(route('api.points')); ?>", function(data) {
+            point.addData(data);
+            map.addLayer(point);
+        });
+        /* GeoJSON Polyline */
+        var polyline = L.geoJson(null, {
+            style: function(feature) {
+                return {
+                    color: 'red',
+                    weight: 5,
+
+                };
+            },
+            onEachFeature: function(feature, layer) {
+                var popupContent = "Name: " + feature.properties.name + "<br>" +
+                    "Description: " + feature.properties.description + "<br>" +
+                    "Panjang: " + feature.properties.panjang_km.toFixed(2) + " km";
+                layer.on({
+                    click: function(e) {
+                        polyline.bindPopup(popupContent);
+                    },
+                    mouseover: function(e) {
+                        polyline.bindTooltip(feature.properties.name);
+                    },
+                });
+            },
+        });
+        $.getJSON("<?php echo e(route('api.polylines')); ?>", function(data) {
+            polyline.addData(data);
+            map.addLayer(polyline);
+        });
+
+        /* GeoJSON Polygon */
+        var polygon = L.geoJson(null, {
+            style: function(feature) {
+                return {
+                    color: 'green',
+                    weight: 5,
+                };
+            },
+            onEachFeature: function(feature, layer) {
+                var popupContent = "Name: " + feature.properties.name + "<br>" +
+                    "Description: " + feature.properties.description + "<br>" +
+                    "Luas: " + feature.properties.luas_hektar.toFixed(2) + " ha";
+                layer.on({
+                    click: function(e) {
+                        polygon.bindPopup(popupContent);
+                    },
+                    mouseover: function(e) {
+                        polygon.bindTooltip(feature.properties.name);
+                    },
+                });
+            },
+        });
+        $.getJSON("<?php echo e(route('api.polygons')); ?>", function(data) {
+            polygon.addData(data);
+            map.addLayer(polygon);
+        });
+        var overlayMaps = {
+            "Points": point,
+            "Polylines": polyline,
+            "Polygons": polygon
+        };
+
+        L.control.layers(null, overlayMaps, { position: 'topright' }).addTo(map);
+
     </script>
 <?php $__env->stopSection(); ?>
 

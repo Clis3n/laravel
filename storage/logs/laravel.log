@@ -4941,3 +4941,369 @@ LINE 1: select count(*) as aggregate from \"point\" where \"name\" = $1
 #56 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(23): require_once('C:\\\\Users\\\\user\\\\D...')
 #57 {main}
 "} 
+[2025-03-20 13:31:53] local.ERROR: syntax error, unexpected token "}" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 13:32:10] local.ERROR: syntax error, unexpected token "}", expecting "(" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \"(\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 13:32:18] local.ERROR: syntax error, unexpected token "}", expecting ";" or "{" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \";\" or \"{\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 13:32:31] local.ERROR: syntax error, unexpected token "}", expecting ";" or "{" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \";\" or \"{\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 13:34:39] local.ERROR: syntax error, unexpected token "->" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"->\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:16)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 13:34:45] local.ERROR: syntax error, unexpected token "->" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"->\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:16)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 14:25:26] local.ERROR: Unclosed '(' on line 10 {"exception":"[object] (ParseError(code: 0): Unclosed '(' on line 10 at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\routes\\api.php:11)
+[stacktrace]
+#0 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(513): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\user\\\\D...')
+#1 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(467): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\user\\\\D...')
+#2 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(207): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\user\\\\D...')
+#3 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Configuration\\ApplicationBuilder.php(214): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\user\\\\D...')
+#4 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Configuration\\ApplicationBuilder->Illuminate\\Foundation\\Configuration\\{closure}()
+#5 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(162): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(59): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(144): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1154): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1132): Illuminate\\Foundation\\Application->bootProvider(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider), 'Illuminate\\\\Foun...')
+#20 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1131): array_walk(Array, Object(Closure))
+#21 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2025-03-20 14:25:31] local.ERROR: Unclosed '(' on line 10 {"exception":"[object] (ParseError(code: 0): Unclosed '(' on line 10 at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\routes\\api.php:11)
+[stacktrace]
+#0 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(513): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\user\\\\D...')
+#1 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(467): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\user\\\\D...')
+#2 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(207): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\user\\\\D...')
+#3 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Configuration\\ApplicationBuilder.php(214): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\user\\\\D...')
+#4 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Configuration\\ApplicationBuilder->Illuminate\\Foundation\\Configuration\\{closure}()
+#5 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(162): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(59): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(144): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1154): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1132): Illuminate\\Foundation\\Application->bootProvider(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider), 'Illuminate\\\\Foun...')
+#20 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1131): array_walk(Array, Object(Closure))
+#21 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2025-03-20 14:25:31] local.ERROR: Unclosed '(' on line 10 {"exception":"[object] (ParseError(code: 0): Unclosed '(' on line 10 at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\routes\\api.php:11)
+[stacktrace]
+#0 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(513): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\user\\\\D...')
+#1 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(467): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\user\\\\D...')
+#2 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(207): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\user\\\\D...')
+#3 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Configuration\\ApplicationBuilder.php(214): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\user\\\\D...')
+#4 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Configuration\\ApplicationBuilder->Illuminate\\Foundation\\Configuration\\{closure}()
+#5 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(162): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(59): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(144): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1154): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1132): Illuminate\\Foundation\\Application->bootProvider(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider), 'Illuminate\\\\Foun...')
+#20 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1131): array_walk(Array, Object(Closure))
+#21 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2025-03-20 14:25:43] local.ERROR: Unclosed '(' on line 10 {"exception":"[object] (ParseError(code: 0): Unclosed '(' on line 10 at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\routes\\api.php:11)
+[stacktrace]
+#0 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(513): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\user\\\\D...')
+#1 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(467): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\user\\\\D...')
+#2 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(207): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\user\\\\D...')
+#3 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Configuration\\ApplicationBuilder.php(214): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\user\\\\D...')
+#4 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Configuration\\ApplicationBuilder->Illuminate\\Foundation\\Configuration\\{closure}()
+#5 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(162): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(59): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(144): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1154): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1132): Illuminate\\Foundation\\Application->bootProvider(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider), 'Illuminate\\\\Foun...')
+#20 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1131): array_walk(Array, Object(Closure))
+#21 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2025-03-20 14:25:52] local.ERROR: Unclosed '(' on line 10 {"exception":"[object] (ParseError(code: 0): Unclosed '(' on line 10 at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\routes\\api.php:11)
+[stacktrace]
+#0 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(513): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\user\\\\D...')
+#1 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(467): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\user\\\\D...')
+#2 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(207): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\user\\\\D...')
+#3 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Configuration\\ApplicationBuilder.php(214): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\user\\\\D...')
+#4 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Configuration\\ApplicationBuilder->Illuminate\\Foundation\\Configuration\\{closure}()
+#5 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(162): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(59): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(144): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1154): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1132): Illuminate\\Foundation\\Application->bootProvider(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider), 'Illuminate\\\\Foun...')
+#20 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1131): array_walk(Array, Object(Closure))
+#21 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2025-03-20 14:26:10] local.ERROR: Unclosed '(' on line 11 {"exception":"[object] (ParseError(code: 0): Unclosed '(' on line 11 at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\routes\\api.php:12)
+[stacktrace]
+#0 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(513): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\user\\\\D...')
+#1 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(467): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\user\\\\D...')
+#2 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(207): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\user\\\\D...')
+#3 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Configuration\\ApplicationBuilder.php(214): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\user\\\\D...')
+#4 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Configuration\\ApplicationBuilder->Illuminate\\Foundation\\Configuration\\{closure}()
+#5 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(162): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(59): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(144): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1154): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1132): Illuminate\\Foundation\\Application->bootProvider(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider), 'Illuminate\\\\Foun...')
+#20 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1131): array_walk(Array, Object(Closure))
+#21 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2025-03-20 14:26:31] local.ERROR: syntax error, unexpected string content "p)" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected string content \"p)\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\routes\\api.php:11)
+[stacktrace]
+#0 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(513): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\user\\\\D...')
+#1 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(467): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\user\\\\D...')
+#2 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(207): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\user\\\\D...')
+#3 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Configuration\\ApplicationBuilder.php(214): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\user\\\\D...')
+#4 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Configuration\\ApplicationBuilder->Illuminate\\Foundation\\Configuration\\{closure}()
+#5 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(162): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(59): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(144): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1154): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1132): Illuminate\\Foundation\\Application->bootProvider(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider), 'Illuminate\\\\Foun...')
+#20 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1131): array_walk(Array, Object(Closure))
+#21 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2025-03-20 14:26:31] local.ERROR: syntax error, unexpected string content "p)" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected string content \"p)\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\routes\\api.php:11)
+[stacktrace]
+#0 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(513): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\user\\\\D...')
+#1 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(467): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\user\\\\D...')
+#2 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(207): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\user\\\\D...')
+#3 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Configuration\\ApplicationBuilder.php(214): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\user\\\\D...')
+#4 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Configuration\\ApplicationBuilder->Illuminate\\Foundation\\Configuration\\{closure}()
+#5 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(162): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(59): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(144): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1154): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1132): Illuminate\\Foundation\\Application->bootProvider(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider), 'Illuminate\\\\Foun...')
+#20 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1131): array_walk(Array, Object(Closure))
+#21 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2025-03-20 14:26:31] local.ERROR: syntax error, unexpected string content "p)" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected string content \"p)\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\routes\\api.php:11)
+[stacktrace]
+#0 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(513): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\user\\\\D...')
+#1 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(467): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\user\\\\D...')
+#2 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(207): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\user\\\\D...')
+#3 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Configuration\\ApplicationBuilder.php(214): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\user\\\\D...')
+#4 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Configuration\\ApplicationBuilder->Illuminate\\Foundation\\Configuration\\{closure}()
+#5 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(162): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(59): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(83): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(144): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1154): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1132): Illuminate\\Foundation\\Application->bootProvider(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider), 'Illuminate\\\\Foun...')
+#20 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1131): array_walk(Array, Object(Closure))
+#21 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2025-03-20 14:36:51] local.ERROR: syntax error, unexpected token "return" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:17)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 14:37:14] local.ERROR: Unclosed '{' on line 9 {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Unclosed '{' on line 9 at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:26)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 14:37:25] local.ERROR: syntax error, unexpected token "return" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:25)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 14:37:32] local.ERROR: syntax error, unexpected token "," {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \",\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 14:37:37] local.ERROR: syntax error, unexpected token "," {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \",\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 14:37:53] local.ERROR: syntax error, unexpected token "," {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \",\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 14:38:06] local.ERROR: syntax error, unexpected token "," {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \",\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 14:38:21] local.ERROR: syntax error, unexpected token "," {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \",\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 14:38:32] local.ERROR: syntax error, unexpected token "," {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \",\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:25)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 14:38:34] local.ERROR: syntax error, unexpected token "," {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \",\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:25)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 14:39:11] local.ERROR: syntax error, unexpected token "," {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \",\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:29)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 14:39:15] local.ERROR: syntax error, unexpected token "," {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \",\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:29)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 14:39:32] local.ERROR: syntax error, unexpected token "," {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \",\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:30)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 14:39:41] local.ERROR: syntax error, unexpected token "," {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \",\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:30)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 14:39:49] local.ERROR: syntax error, unexpected token "," {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \",\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:31)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 14:40:05] local.ERROR: syntax error, unexpected token "," {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \",\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:31)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 14:40:13] local.ERROR: syntax error, unexpected token "," {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \",\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:31)
+[stacktrace]
+#0 {main}
+"} 
+[2025-03-20 14:40:19] local.ERROR: syntax error, unexpected token "," {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \",\" at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\app\\Models\\PointsModel.php:31)
+[stacktrace]
+#0 {main}
+"} 

@@ -5307,3 +5307,19 @@ LINE 1: select count(*) as aggregate from \"point\" where \"name\" = $1
 [stacktrace]
 #0 {main}
 "} 
+[2025-03-27 06:02:22] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\user\Documents\Kuliah\Semester4\Praktikum\Bahan\PGWEBL\laravel\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1717
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\user\\D...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1717
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\user\\\\D...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\user\\Documents\\Kuliah\\Semester4\\Praktikum\\Bahan\\PGWEBL\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1717)
+[stacktrace]
+#0 {main}
+"} 

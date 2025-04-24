@@ -48,7 +48,7 @@
                         <div class="mb-3">
                             <label for="image" class="form-label">Photo</label>
                             <input type="file" class="form-control" id="image_point" name="image"
-                            onchange="document.getElementById('preview-image-point').src = window.URL.createObjectURL(this.files[0])">
+                                onchange="document.getElementById('preview-image-point').src = window.URL.createObjectURL(this.files[0])">
                         </div>
                         <img src="" alt="" id="preview-image-point" class="img-thumbnail" width="400">
                     </div>
@@ -92,9 +92,10 @@
                         <div class="mb-3">
                             <label for="image" class="form-label">Photo</label>
                             <input type="file" class="form-control" id="image_polyline" name="image"
-                            onchange="document.getElementById('preview-image-polyline').src = window.URL.createObjectURL(this.files[0])">
+                                onchange="document.getElementById('preview-image-polyline').src = window.URL.createObjectURL(this.files[0])">
                         </div>
-                        <img src="" alt="" id="preview-image-polyline" class="img-thumbnail" width="400">
+                        <img src="" alt="" id="preview-image-polyline" class="img-thumbnail"
+                            width="400">
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -137,9 +138,10 @@
                         <div class="mb-3">
                             <label for="image" class="form-label">Photo</label>
                             <input type="file" class="form-control" id="image_polygon" name="image"
-                            onchange="document.getElementById('preview-image-polygon').src = window.URL.createObjectURL(this.files[0])">
+                                onchange="document.getElementById('preview-image-polygon').src = window.URL.createObjectURL(this.files[0])">
                         </div>
-                        <img src="" alt="" id="preview-image-polygon" class="img-thumbnail" width="400">
+                        <img src="" alt="" id="preview-image-polygon" class="img-thumbnail"
+                            width="400">
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -228,7 +230,8 @@
                 var popupContent =
                     "Nama: " + feature.properties.name + "<br>" +
                     "Deskripsi: " + feature.properties.description + "<br>" +
-                    "<img src='{{  asset('storage/images') }}/" + feature.properties.image + "' width='200' alt=''>"
+                    "<img src='{{ asset('storage/images') }}/" + feature.properties.image +
+                    "' width='200' alt=''>"
                 layer.on({
                     click: function(e) {
                         point.bindPopup(popupContent);
@@ -250,8 +253,9 @@
                 var popupContent =
                     "Nama: " + feature.properties.name + "<br>" +
                     "Deskripsi: " + feature.properties.description + "<br>" +
-                    "Luas (km): " + feature.properties.length_km + "<br>" +
-                    "<img src='{{  asset(path:'storage/images') }}/" + feature.properties.image + "' width='200' alt=''>"
+                    "Luas (km): " + Number(feature.properties.length_km).toFixed(2) + "<br>" +
+                    "<img src='{{ asset(path: 'storage/images') }}/" + feature.properties.image +
+                    "' width='200' alt=''>"
                 layer.on({
                     click: function(e) {
                         polyline.bindPopup(popupContent);
@@ -273,9 +277,10 @@
                 var popupContent =
                     "Nama: " + feature.properties.name + "<br>" +
                     "Deskripsi: " + feature.properties.description + "<br>" +
-                    "Luas (km2): " + feature.properties.luas_km2 + "<br>" +
-                    "Luas (ha): " + feature.properties.luas_hektar + "<br>" +
-                    "<img src='{{  asset(path:'storage/images') }}/" + feature.properties.image + "' width='200' alt=''>";
+                    "Luas (km2): " + Number(feature.properties.luas_km2).toFixed(2) + "<br>" +
+                    "Luas (ha): " + Number(feature.properties.luas_hektar).toFixed(2) + "<br>" +
+                    "<img src='{{ asset(path: 'storage/images') }}/" + feature.properties.image +
+                    "' width='200' alt=''>";
                 layer.on({
                     click: function(e) {
                         polygon.bindPopup(popupContent);

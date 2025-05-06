@@ -47,4 +47,5 @@ class PolygonsModel extends Model
         }
         return $geojson;
     }
+    
 }

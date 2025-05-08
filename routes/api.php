@@ -14,4 +14,9 @@ Route::get('/point/{id}', [APIController::class, 'point'])->name('api.point');
 
 Route::get('/polylines', [APIController::class, 'polylines'])->name('api.polylines');
 
+Route::get('/polyline/{id}', [APIController::class, 'polyline'])->name('api.polyline');
+
 Route::get('/polygons', [APIController::class, 'polygons'])->name('api.polygons');
+
+Route::get('/polygon/{id}', [APIController::class, 'polygon'])->name('api.polygon');
+

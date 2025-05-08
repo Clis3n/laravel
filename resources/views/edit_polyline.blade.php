@@ -18,21 +18,21 @@
     <div id="map"></div>
 
     <!-- Modal Point-->
-    <div class="modal fade" id="EditPointModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="EditPolylineModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Edit Point</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Edit Polyline</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <form method="POST" action="{{ route('points.store') }}" enctype="multipart/form-data">
+                <form method="POST" action="{{ route('polylines.update', $id) }}" enctype="multipart/form-data">
+                    @csrf
+                    @method('PUT')
                     <div class="modal-body">
-                        @csrf
-
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
                             <input type="text" class="form-control" id="name" name="name"
-                                placeholder="example point">
+                                placeholder="example polyline">
                         </div>
 
                         <div class="mb-3">
@@ -41,16 +41,17 @@
                         </div>
 
                         <div class="mb-3">
-                            <label for="geom_point" class="form-label">Geometry</label>
-                            <textarea class="form-control" id="geom_point" name="geom_point" rows="3"></textarea>
+                            <label for="geom_polyline" class="form-label">Geometry</label>
+                            <textarea class="form-control" id="geom_polyline" name="geom_polyline" rows="3"></textarea>
                         </div>
 
                         <div class="mb-3">
                             <label for="image" class="form-label">Photo</label>
-                            <input type="file" class="form-control" id="image_point" name="image"
-                                onchange="document.getElementById('preview-image-point').src = window.URL.createObjectURL(this.files[0])">
+                            <input type="file" class="form-control" id="image_polyline" name="image"
+                                onchange="document.getElementById('preview-image-polyline').src = window.URL.createObjectURL(this.files[0])">
                         </div>
-                        <img src="" alt="" id="preview-image-point" class="img-thumbnail" width="400">
+                        <img src="" alt="" id="preview-image-polyline" class="img-thumbnail"
+                            width="400">
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -113,17 +114,17 @@
 
                 $('#name').val(properties.name);
                 $('#description').val(properties.description);
-                $('#geom_point').val(objectGeometry);
-                $('#preview-image-point').attr('src', "{{ asset('storage/images') }}/" + properties.image);
-                $('#EditPointModal').modal('show');
+                $('#geom_polyline').val(objectGeometry);
+                $('#preview-image-polyline').attr('src', "{{ asset('storage/images') }}/" + properties.image);
+                $('#EditPolylineModal').modal('show');
 
             });
         });
     </script>
 
     <script>
-        /* GeoJSON Point */
-        var point = L.geoJson(null, {
+        /* GeoJSON Polyline */
+        var polyline = L.geoJson(null, {
             onEachFeature: function(feature, layer) {
 
                 drawnItems.addLayer(layer);
@@ -134,17 +135,17 @@
                     click: function(e) {
                         $('#name').val(feature.properties.name);
                         $('#description').val(feature.properties.description);
-                        $('#geom_point').val(objectGeometry);
-                        $('#preview-image-point').attr('src', "{{ asset('storage/images') }}/" + feature.properties.image);
-                        $('#EditPointModal').modal('show');
+                        $('#geom_polyline').val(objectGeometry);
+                        $('#preview-image-polyline').attr('src', "{{ asset('storage/images') }}/" + feature.properties.image);
+                        $('#EditPolylineModal').modal('show');
                     },
                 });
             },
         });
-        $.getJSON("{{ route('api.point', $id) }}", function(data) {
-            point.addData(data);
-            map.addLayer(point);
-            map.fitBounds(point.getBounds(), {
+        $.getJSON("{{ route('api.polyline', $id) }}", function(data) {
+            polyline.addData(data);
+            map.addLayer(polyline);
+            map.fitBounds(polyline.getBounds(), {
                 padding: [100, 100]
             });
         });

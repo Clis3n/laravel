@@ -27,7 +27,7 @@
                 </div>
                 <form method="POST" action="{{ route('polylines.update', $id) }}" enctype="multipart/form-data">
                     @csrf
-                    @method('PUT')
+                    @method('PATCH')
                     <div class="modal-body">
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>

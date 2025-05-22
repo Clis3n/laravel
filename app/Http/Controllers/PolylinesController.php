@@ -7,6 +7,8 @@ use App\Models\PolylinesModel;
 
 class PolylinesController extends Controller
 {
+    protected $polylines;
+
     public function __construct()
     {
         $this->polylines = new PolylinesModel();
@@ -64,7 +66,8 @@ class PolylinesController extends Controller
             'geom' => $request->geom_polyline,
             'name' => $request->name,
             'description' => $request->description,
-            'image' => $name_image
+            'image' => $name_image,
+            'user_id' => auth()->user()->id,
         ];
 
         // create data

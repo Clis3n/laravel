@@ -4,9 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\PointsModel;
+use App\Http\Controllers\Controller;
 
 class PointsController extends Controller
 {
+    protected $points;
+
     public function __construct()
     {
         $this->points = new PointsModel();
@@ -69,7 +72,8 @@ class PointsController extends Controller
             'geom' => $request->geom_point,
             'name' => $request->name,
             'description' => $request->description,
-            'image' => $name_image
+            'image' => $name_image,
+            'user_id' => auth()->user()->id,
         ];
 
         // create data

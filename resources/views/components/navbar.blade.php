@@ -1,8 +1,5 @@
 <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark"> {{-- Ganti bg-body-tertiary menjadi bg-dark dan tambahkan data-bs-theme="dark" --}}
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{ url('/') }}"> {{-- Arahkan ke home/root URL --}}
-            <i class="fa-solid fa-earth-americas"></i> {{ $title }}
-        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -11,9 +8,11 @@
                 <li class="nav-item">
                     <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" aria-current="page" href="{{ url('/') }}"><i class="fa-solid fa-house"></i> Home</a>
                 </li>
+                @auth
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('map') }}"><i class="fa-solid fa-map-location-dot"></i> Map</a>
                 </li>
+                @endauth
                 <li class="nav-item">
                     <a class="nav-link {{ Route::currentRouteName() == 'table' ? 'active' : '' }}" href="{{ route('table') }}"><i class="fa-solid fa-table-list"></i> Table</a>
                 </li>

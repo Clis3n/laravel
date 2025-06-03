@@ -22,6 +22,7 @@
             </div>
         </div>
 
+        @auth
         <div class="col-md-4 mb-4">
             <div class="card shadow-sm h-100">
                 <div class="card-body text-center">
@@ -31,6 +32,7 @@
                 </div>
             </div>
         </div>
+        @endauth
 
         <div class="col-md-4 mb-4">
             <div class="card shadow-sm h-100">

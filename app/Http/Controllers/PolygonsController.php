@@ -47,9 +47,12 @@ class PolygonsController extends Controller
             'geom_polygon.required' => 'Geometry is required',
         ]);
 
-        if (!is_dir('storage/images')) {
-            mkdir('./storage/images', 0777);
-        }
+    // path direktori tujuan
+    $path = storage_path('app/public/images');
+
+    if (!is_dir($path)) {
+        mkdir($path, 0777, true);
+    }
 
         // upload image
         if ($request->hasFile('image')) {

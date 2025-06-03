@@ -46,10 +46,12 @@ class PolylinesController extends Controller
             'geom_polyline.required' => 'Geometry is required',
         ]);
 
-        // make folder
-        if (!is_dir('storage/images')) {
-            mkdir('./storage/images', 0777);
-        }
+    // path direktori tujuan
+    $path = storage_path('app/public/images');
+
+    if (!is_dir($path)) {
+        mkdir($path, 0777, true);
+    }
 
         // upload image
         if ($request->hasFile('image')) {
